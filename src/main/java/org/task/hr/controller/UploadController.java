@@ -24,7 +24,6 @@ public class UploadController {
     @PostMapping("/upload")
     public String singleFileUpload(@RequestParam("file") MultipartFile file,
                                    RedirectAttributes redirectAttributes) throws IOException, CsvException {
-        System.out.println("uploadas ...");
         List<String[]> csvList = new ArrayList<>();
         if (file.isEmpty()) {
             redirectAttributes.addFlashAttribute("message", "Please select a file to upload");
