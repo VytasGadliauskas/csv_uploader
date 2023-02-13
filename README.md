@@ -30,7 +30,7 @@ Provide git repository with implementation and instructions on how to run the ap
 * *****************************************************************************
 To run aplication:
    
-    download https://github.com/VytasGadliauskas/csv_uploader/blob/main/APPLICATION/hr.jar file
+    download /APPLICATION/hr.jar file
     run from comand line: java -jar hr.jar
     open in browser: http://localhost:8080 
 
