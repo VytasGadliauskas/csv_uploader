@@ -12,11 +12,11 @@ Provide git repository with implementation and instructions on how to run the ap
 *                               WHAT WAS DONE                                 *
 * *****************************************************************************
 1. spring - as backend RESt  
-   http://localhost:8080/hrapi/persons      - GET  : get list\n
-   http://localhost:8080/hrapi/persons/{id} - GET : get by id\n 
-   http://localhost:8080/hrapi/persons      - POST : add\n 
-   http://localhost:8080/hrapi/persons/{id} - PUT : update\n
-   http://localhost:8080/hrapi/persons/[id] - DELETE : delete\n
+   http://localhost:8080/hrapi/persons      - GET  : get list
+   http://localhost:8080/hrapi/persons/{id} - GET : get by id 
+   http://localhost:8080/hrapi/persons      - POST : add 
+   http://localhost:8080/hrapi/persons/{id} - PUT : update
+   http://localhost:8080/hrapi/persons/[id] - DELETE : delete
 
    Supports upload csv file with and without header (column names)
    Supports UTF8 
@@ -29,6 +29,7 @@ Provide git repository with implementation and instructions on how to run the ap
 *                               INSTRUCTIONS                                  *
 * *****************************************************************************
 To run aplication:
+    needs java >= 17
    
     download /APPLICATION/hr.jar file
     run from comand line: java -jar hr.jar
